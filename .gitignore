@@ -1,0 +1,20 @@
+# 1. Virtual Environment Folder (Crucial to ignore)
+# This prevents the large venv folder from being pushed.
+venv/
+.venv/
+
+# 2. Python compiled files
+# This ignores the temporary files Python creates.
+__pycache__/
+*.pyc
+
+# 3. Jupyter / Data Science Specific Files
+# This ignores temporary files created when working with notebooks.
+.ipynb_checkpoints/
+
+# 4. VS Code Local Settings
+# Ignore user-specific workspace settings.
+.vscode/
+
+# 5. Operating System Files (e.g., Mac)
+.DS_Store
